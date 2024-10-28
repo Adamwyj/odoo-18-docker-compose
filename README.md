@@ -10,9 +10,9 @@ curl -s https://raw.githubusercontent.com/Adamwyj/odoo-18-docker-compose/master/
 and/or run the following to set up another Odoo instance @ `localhost:11018` (default master password: `minhng.info`):
 
 ``` bash
-curl -s https://raw.githubusercontent.com/minhng92/odoo-18-docker-compose/master/run.sh | sudo bash -s odoo-two 11018 21018
+curl -s https://raw.githubusercontent.com/Adamwyj/odoo-18-docker-compose/master/run.sh | sudo bash -s odoo-two 11018 21018
 ```
-
+****Make sure you're using docker command "docker compose" instead of "docker-compose".
 Some arguments:
 * First argument (**odoo-one**): Odoo deploy folder
 * Second argument (**10018**): Odoo port
